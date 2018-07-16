@@ -1,0 +1,38 @@
+Clinic/ OPD management system: [CRUD based application]
+-----------
+1. Patient CRUD
+2. Doctor CRUD
+3. Medicines CRUD
+4. Appointments [calendar or form]
+5. History management
+6. Prescription
+
+
+
+
+
+
+
+
+-----------------------------------------------
+Survey Management System (For Dynamic form/ survey/ Polls creation) [Dynamic Forms]
+------------
+1. Account management
+2. Form management [inquiry]
+3. Survey management
+4. Poll management
+5. Signature
+6. payment
+
+
+
+-----------------------------------------------
+Little LMS [learning management system] [CRUD based application]
+------------
+1. School CRUD
+2. Class CRUD
+3. Student CRUD
+4. Student to Class
+5. Attendance
+6. Homework Management 
+7. Parents 
