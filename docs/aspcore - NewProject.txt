@@ -1,0 +1,16 @@
+
+
+https://dotnetcore.gaprogman.com/2017/04/20/dotnet-new-angular-single-page-application-setup-and-how-the-template-works/
+
+dotnet new -all
+dotnet new -all | findstr /I "angular"
+
+-----
+to install SPA
+> dotnet new --install Microsoft.AspNetCore.SpaTemplates::*
+
+cd- directory
+> dotnew new angular
+> dotnet restore
+> npm install -d
+> dotnet run
