@@ -1,0 +1,49 @@
+dotnet add package <package uri>
+i.e.
+> dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+then run
+> dotnet restore	
+---
+
+To Enable Migration:
+1. Open .csproj 
+
+2. Copy page following
+<ItemGroup>
+    
+<DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
+  
+</ItemGroup>
+https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools.DotNet/2.0.3
+
+3. dotnet restore
+
+4.Now we dotnet commands available like VS.
+> dotnet ef
+> dotnet ef migrations --help
+> dotnet ef migrations add --help
+
+*Successfully installed EF
+----
+
+create a DB context:
+
+1. mkdir presistence
+2. C# class 
+3. DbContextOptions<?>
+4. Register it via Dependency injection [optional]
+5. Pass connection string
+----
+
+To Create DB
+
+1. add DBSet (conventional method)
+2. dotnet add package Microsoft.EntityFrameworkCore.Design 
+2.1. dotnet resote
+
+3. dotnet ef migrations remove | to remove last mig
+3.1.dotnet ef migrations add "you migration name" | to add mig
+
+4. dotnet ef update database
+5. BEAUTIFUL :D

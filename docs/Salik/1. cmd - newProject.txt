@@ -1,4 +1,4 @@
-#To be deleted
+
 
 https://dotnetcore.gaprogman.com/2017/04/20/dotnet-new-angular-single-page-application-setup-and-how-the-template-works/
 
